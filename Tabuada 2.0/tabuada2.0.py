@@ -23,8 +23,7 @@ while True:
             break
     except:
         vermelho('DIGITE APENAS NÚMEROS...')
-        sair = str(input('Deseja continuar: [S/N] ')).lower().strip()[0]
-    
+            
 tracejado()
 roxo('{:^40}'.format(' FIM DO PROGRAMA ' ))
 tracejado()
