@@ -5,12 +5,13 @@ from time import sleep
 from os import system
 #_________________________CÓDIGO DO PROGRAMA________________________________
 
-computador = randint(0, 2)
+
 opcao = ('PEDRA', 'PAPEL', 'TESOURA')
 validacao = 0, 1, 2
 cont_jogador = cont_computador = 0
 
 while True:
+    computador = randint(0, 2)
     print('-='* 31)
     print('{:^61}'.format('J O K E N P Ó'))
     print('-='* 31)
